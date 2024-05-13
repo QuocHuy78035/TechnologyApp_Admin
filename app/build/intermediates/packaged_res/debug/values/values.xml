@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorGrey">#808080</color>
+    <color name="primaryColor">#10AED8</color>
+    <color name="textColor">#FF03DAC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">technology_app</string>
+    <string name="gcm_defaultSenderId" translatable="false">615003143018</string>
+    <string name="google_api_key" translatable="false">AIzaSyCt6rlxTu8PlksJdY7fe0liXlrVmAGiRxY</string>
+    <string name="google_app_id" translatable="false">1:615003143018:android:d1fec38c2b96d929acc313</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCt6rlxTu8PlksJdY7fe0liXlrVmAGiRxY</string>
+    <string name="google_storage_bucket" translatable="false">dd-project-ed538.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">dd-project-ed538</string>
+    <style name="Base.Theme.Technology_app" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Technology_app" parent="Base.Theme.Technology_app"/>
+</resources>
