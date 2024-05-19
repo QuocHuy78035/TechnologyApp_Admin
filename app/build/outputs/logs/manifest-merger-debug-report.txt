@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-87:12
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
 MERGED from [zpdk-release-v3.1.aar] C:\Users\Lenovo\.gradle\caches\transforms-3\1eaa79f5f7b99269684a63318a91cd42\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:2:1-15:12
 MERGED from [live.videosdk:rtc-android-sdk:0.1.21] C:\Users\Lenovo\.gradle\caches\transforms-3\2bf532594d9627de5ce26ba1c81520b4\transformed\jetified-rtc-android-sdk-0.1.21\AndroidManifest.xml:2:1-26:12
 MERGED from [live.videosdk:videosdk-room-stats-android:0.0.2] C:\Users\Lenovo\.gradle\caches\transforms-3\e59ee70e68b1027f9c13133d1edf3bd4\transformed\jetified-videosdk-room-stats-android-0.0.2\AndroidManifest.xml:2:1-9:12
@@ -93,13 +93,13 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Lenovo\.gradle\cac
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3670be70e63588208532e5ce3d5e1345\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\60d7ce49630c3cc88873e446de9ab993\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Lenovo\.gradle\caches\transforms-3\27a185ed4779ec3d2ddd0e4a78cd16d1\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Lenovo\.gradle\caches\transforms-3\e5c7ceca71dc39ea6e907dc3ac61694e\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Lenovo\.gradle\caches\transforms-3\e0460272af8cf01c3310b93a5e97ddd7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Lenovo\.gradle\caches\transforms-3\537575d56bfec21b5d87f24c273f4de5\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Lenovo\.gradle\caches\transforms-3\511e93bd7254f7ba4dae2973be5331bd\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\63c8d02203f607d0d38ef3227d0de2dc\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\54c74dda3e6d73859aa3894a705728e0\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Lenovo\.gradle\caches\transforms-3\e5c7ceca71dc39ea6e907dc3ac61694e\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Lenovo\.gradle\caches\transforms-3\9ead1adfeff4f8190b3cfeb0b6b67c09\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.5] C:\Users\Lenovo\.gradle\caches\transforms-3\5171bd9bbd2b13b1305dc9a9652f1f8b\transformed\jetified-exoplayer-datasource-2.18.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.5] C:\Users\Lenovo\.gradle\caches\transforms-3\3240cd5ab416a530957090608b6daa30\transformed\jetified-exoplayer-database-2.18.5\AndroidManifest.xml:17:1-24:12
@@ -199,8 +199,8 @@ ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\ma
 	android:name
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:13:22-62
 application
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:15:5-85:19
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:15:5-85:19
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:15:5-88:19
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:15:5-88:19
 MERGED from [live.videosdk:rtc-android-sdk:0.1.21] C:\Users\Lenovo\.gradle\caches\transforms-3\2bf532594d9627de5ce26ba1c81520b4\transformed\jetified-rtc-android-sdk-0.1.21\AndroidManifest.xml:12:5-24:19
 MERGED from [live.videosdk:rtc-android-sdk:0.1.21] C:\Users\Lenovo\.gradle\caches\transforms-3\2bf532594d9627de5ce26ba1c81520b4\transformed\jetified-rtc-android-sdk-0.1.21\AndroidManifest.xml:12:5-24:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ae1d0432b39c926d885be431b519cd1c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
@@ -259,14 +259,14 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\5e5971210cabbae1ca5b432d2c2f8b20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\16e3e5ab952863576629a42057ed87af\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\16e3e5ab952863576629a42057ed87af\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Lenovo\.gradle\caches\transforms-3\e0460272af8cf01c3310b93a5e97ddd7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Lenovo\.gradle\caches\transforms-3\e0460272af8cf01c3310b93a5e97ddd7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Lenovo\.gradle\caches\transforms-3\537575d56bfec21b5d87f24c273f4de5\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Lenovo\.gradle\caches\transforms-3\537575d56bfec21b5d87f24c273f4de5\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Lenovo\.gradle\caches\transforms-3\511e93bd7254f7ba4dae2973be5331bd\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Lenovo\.gradle\caches\transforms-3\511e93bd7254f7ba4dae2973be5331bd\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Lenovo\.gradle\caches\transforms-3\10f430463209e92f595b35cad9789dd9\transformed\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Lenovo\.gradle\caches\transforms-3\10f430463209e92f595b35cad9789dd9\transformed\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
@@ -305,106 +305,112 @@ ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\ma
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:30:13-67
-activity#com.example.technology_app.activities.chat.UserActivity
+activity#com.example.technology_app.activities.order.OrderActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:33:13-57
-activity#com.example.technology_app.activities.products.RamActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:33:13-59
+activity#com.example.technology_app.activities.chat.UserActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:36:13-60
-activity#com.example.technology_app.activities.auth.VerifySignUpActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:36:13-57
+activity#com.example.technology_app.activities.products.RamActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:39:13-65
-activity#com.example.technology_app.activities.payment.PaymentActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:39:13-60
+activity#com.example.technology_app.activities.auth.VerifySignUpActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:42:13-63
-activity#com.example.technology_app.activities.products.VidDemoProductActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:42:13-65
+activity#com.example.technology_app.activities.payment.PaymentActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:45:13-71
-activity#com.example.technology_app.activities.chat.ChatActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:45:13-63
+activity#com.example.technology_app.activities.products.VidDemoProductActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:48:13-57
-activity#com.example.technology_app.activities.products.DetailProductActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:48:13-71
+activity#com.example.technology_app.activities.chat.ChatActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:51:13-70
-activity#com.example.technology_app.activities.products.LaptopActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:51:13-57
+activity#com.example.technology_app.activities.products.DetailProductActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:54:13-63
-activity#com.example.technology_app.activities.auth.RegisterActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:54:13-70
+activity#com.example.technology_app.activities.products.LaptopActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:57:13-61
-activity#com.example.technology_app.activities.auth.LoginActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:57:13-63
+activity#com.example.technology_app.activities.auth.RegisterActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:60:13-58
-activity#com.example.technology_app.activities.cart.CartActivity
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:60:13-61
+activity#com.example.technology_app.activities.auth.LoginActivity
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:62:9-64:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:63:13-57
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:63:13-58
+activity#com.example.technology_app.activities.cart.CartActivity
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:65:9-67:40
+	android:exported
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:66:13-57
 activity#com.example.technology_app.activities.auth.SplashActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:65:9-73:20
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:68:9-76:20
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:67:13-36
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:70:13-36
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:66:13-59
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:69:13-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:68:13-72:29
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:71:13-75:29
 action#android.intent.action.MAIN
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:69:17-69
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:72:17-69
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:69:25-66
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:72:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:71:17-77
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:74:17-77
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:71:27-74
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:74:27-74
 activity#com.example.technology_app.activities.main.MainActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:74:9-76:39
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:77:9-79:39
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:79:13-36
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:75:13-57
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:78:13-57
 service#com.example.technology_app.services.FirebaseMessageReceiver
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:78:9-84:19
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:81:9-87:19
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:80:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:79:13-61
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:82:13-61
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:81:13-83:29
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:84:13-86:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:82:17-78
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:85:17-78
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:82:25-75
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:85:25-75
 uses-sdk
 INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml
@@ -587,6 +593,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\60d7ce49630c3cc88873e446de9ab993\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Lenovo\.gradle\caches\transforms-3\27a185ed4779ec3d2ddd0e4a78cd16d1\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Lenovo\.gradle\caches\transforms-3\27a185ed4779ec3d2ddd0e4a78cd16d1\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Lenovo\.gradle\caches\transforms-3\e5c7ceca71dc39ea6e907dc3ac61694e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Lenovo\.gradle\caches\transforms-3\e5c7ceca71dc39ea6e907dc3ac61694e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Lenovo\.gradle\caches\transforms-3\e0460272af8cf01c3310b93a5e97ddd7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Lenovo\.gradle\caches\transforms-3\e0460272af8cf01c3310b93a5e97ddd7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Lenovo\.gradle\caches\transforms-3\537575d56bfec21b5d87f24c273f4de5\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
@@ -597,10 +607,6 @@ MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\Leno
 MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\63c8d02203f607d0d38ef3227d0de2dc\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\54c74dda3e6d73859aa3894a705728e0\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\54c74dda3e6d73859aa3894a705728e0\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\7cfa434f54efedce8a88f5a12383fdc3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Lenovo\.gradle\caches\transforms-3\e5c7ceca71dc39ea6e907dc3ac61694e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Lenovo\.gradle\caches\transforms-3\e5c7ceca71dc39ea6e907dc3ac61694e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Lenovo\.gradle\caches\transforms-3\9ead1adfeff4f8190b3cfeb0b6b67c09\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Lenovo\.gradle\caches\transforms-3\9ead1adfeff4f8190b3cfeb0b6b67c09\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.5] C:\Users\Lenovo\.gradle\caches\transforms-3\5171bd9bbd2b13b1305dc9a9652f1f8b\transformed\jetified-exoplayer-datasource-2.18.5\AndroidManifest.xml:20:5-22:41

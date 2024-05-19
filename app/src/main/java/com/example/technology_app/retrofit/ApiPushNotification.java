@@ -12,7 +12,7 @@ import retrofit2.http.POST;
 public interface ApiPushNotification {
     @Headers({
             //"Accept: application/json",
-            "Authorization: key=AAAAjzELO2o:APA91bHaEDJs2-G7b0o1bdMzZ2s73ckVfjl3PmukNH0I4aLxWTUPumyXLZtASxoXqXcfKO7jyjhMoI_GDAybfdpUeIwKVSXFNckAAiC8KGmrj32YzIL8cuZeVp-SPjUj2aZYhHbhcW7R"
+            "Authorization: key=AAAAjzELO2o:APA91bHYQWyku45Px9fUC0WDpn5A9md1PN6nlNcsLLpmFo1F_IDPLUCSKVzJ8okYK2oTJC0_XdsVl-H1JdC7e-S15k-sipGjPRS_2kwOicnJnmkt6b5Mc9aTCMPXVf7OQA3GirE-xj6g"
     })
     @POST("fcm/send")
     Observable<NotiResponse> sendNotification(@Body NotiSendData data);

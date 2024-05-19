@@ -3257,6 +3257,7 @@ drawable ic_otp
 drawable ic_pass
 drawable ic_pass_hide
 drawable ic_pass_show
+drawable ic_person
 drawable ic_remove
 drawable ic_search
 drawable ic_search_black_24
@@ -3412,6 +3413,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3451,6 +3453,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddToCart
 id btnBuy
+id btnConfirm_dialog
 id btnCreateMeeting
 id btnHLS
 id btnJoinHostMeeting
@@ -3648,6 +3651,10 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id idItemOrder
+id idItemOrderName
+id idItemOrderQuantity
+id idItemOrderStatusPayment
 id id_chat_user
 id ifRoom
 id ignore
@@ -3655,6 +3662,7 @@ id ignoreRequest
 id image
 id imgAvtProfile
 id imgChat
+id imgDetailItem
 id imgNoti
 id img_detailProduct
 id immediateStop
@@ -3673,6 +3681,7 @@ id inputUserNameRegister
 id invisible
 id inward
 id italic
+id itemOrderPrice
 id item_cart_add
 id item_cart_image
 id item_cart_price
@@ -3844,6 +3853,8 @@ id progressbar
 id radio
 id ratio
 id rectangles
+id recycleItemOrder
+id recycleOrder
 id recycleviewCart
 id recycleviewChatScreen
 id recycleviewHomeScreen
@@ -3904,6 +3915,7 @@ id spacer
 id special_effects_controller_view_tag
 id spherical_gl_surface_view
 id spinner
+id spinner_dialog
 id spline
 id split_action_bar
 id spread
@@ -3920,6 +3932,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id statusOrder
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -3964,6 +3977,7 @@ id titleDividerNoCustom
 id title_noti
 id title_template
 id toggle
+id toolbar
 id toolbarCart
 id toolbarHomeScreen
 id toolbarPayment
@@ -4009,6 +4023,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userName
 id vertical_only
 id video_decoder_gl_surface_view
 id view_offset_helper
@@ -4159,6 +4174,7 @@ layout activity_laptop
 layout activity_login
 layout activity_main
 layout activity_meeting
+layout activity_order
 layout activity_payment
 layout activity_ram
 layout activity_register
@@ -4184,6 +4200,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_order
 layout exo_list_divider
 layout exo_player_control_view
 layout exo_player_view
@@ -4199,7 +4216,9 @@ layout fragment_speaker
 layout fragment_view
 layout item_cart
 layout item_category
+layout item_detail_order
 layout item_loading
+layout item_order
 layout item_product
 layout item_received_message
 layout item_remote_peer

@@ -1,4 +1,4 @@
-#Tue May 14 00:13:18 ICT 2024
+#Mon May 20 02:18:49 ICT 2024
 base.0=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
@@ -8,6 +8,8 @@ base.13=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\bu
 base.14=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.15=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 base.16=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex
+base.17=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.18=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 base.2=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 base.3=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 base.4=D\:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Project_CK_Admin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
@@ -25,6 +27,8 @@ path.13=9/classes.dex
 path.14=classes2.dex
 path.15=classes3.dex
 path.16=classes4.dex
+path.17=12/classes.dex
+path.18=10/classes.dex
 path.2=11/classes.dex
 path.3=13/classes.dex
 path.4=14/classes.dex
@@ -42,6 +46,8 @@ renamed.13=classes14.dex
 renamed.14=classes15.dex
 renamed.15=classes16.dex
 renamed.16=classes17.dex
+renamed.17=classes18.dex
+renamed.18=classes19.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
 renamed.4=classes5.dex

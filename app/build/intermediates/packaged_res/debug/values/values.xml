@@ -5,7 +5,7 @@
     <color name="primaryColor">#10AED8</color>
     <color name="textColor">#FF03DAC5</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">technology_app</string>
+    <string name="app_name">technology_app_admin</string>
     <string name="gcm_defaultSenderId" translatable="false">615003143018</string>
     <string name="google_api_key" translatable="false">AIzaSyCt6rlxTu8PlksJdY7fe0liXlrVmAGiRxY</string>
     <string name="google_app_id" translatable="false">1:615003143018:android:d1fec38c2b96d929acc313</string>
