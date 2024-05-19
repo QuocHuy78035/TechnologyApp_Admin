@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "technology_app"
+rootProject.name = "technology_app_admin"
 include(":app")

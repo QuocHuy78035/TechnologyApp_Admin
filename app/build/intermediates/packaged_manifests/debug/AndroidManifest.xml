@@ -57,6 +57,9 @@
             android:name="com.example.technology_app.activities.livestream.JoinLiveActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.technology_app.activities.order.OrderActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.technology_app.activities.chat.UserActivity"
             android:exported="false" />
         <activity

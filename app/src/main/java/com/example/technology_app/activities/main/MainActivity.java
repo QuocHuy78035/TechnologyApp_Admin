@@ -25,9 +25,9 @@ import com.bumptech.glide.Glide;
 import com.example.technology_app.R;
 import com.example.technology_app.activities.auth.LoginActivity;
 import com.example.technology_app.activities.cart.CartActivity;
-import com.example.technology_app.activities.chat.ChatActivity;
 import com.example.technology_app.activities.chat.UserActivity;
 import com.example.technology_app.activities.livestream.JoinLiveActivity;
+import com.example.technology_app.activities.order.OrderActivity;
 import com.example.technology_app.activities.products.LaptopActivity;
 import com.example.technology_app.activities.products.RamActivity;
 import com.example.technology_app.adapters.CategoryAdapter;
@@ -98,11 +98,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void pushNotification(){
-        String token = "cT08FWn7REavpLCXzgsl1c:APA91bGmyvSkQszBnczPNDehYviMGL-bMnOEi4EyEMuBqDlpyv6D0qMouXbXG-DVIeR_TjBe85Ml4Qe1_IVbTa0amE0Kd7FDjmCZEvfs24f85-gP7QbzH7_vViXW85mLnMlrf1nomUn-";
+        String newToken = Paper.book().read("firebaseToken");
+        //String token = "cT08FWn7REavpLCXzgsl1c:APA91bGmyvSkQszBnczPNDehYviMGL-bMnOEi4EyEMuBqDlpyv6D0qMouXbXG-DVIeR_TjBe85Ml4Qe1_IVbTa0amE0Kd7FDjmCZEvfs24f85-gP7QbzH7_vViXW85mLnMlrf1nomUn-";
+        String token = "cT08FWn7REavpLCXzgsl1c:APA91bFTFGWBMwUZKGd4LDUETDIfoXl-g8GbtzAb31K1f38Hb5fk_URUHrF6zHcT5H1M0B7ljfKdgR-zdHbHjQIjmmFcMuRsgNyzsbjCckH9z7EbpEL4_qprgnLmu8oXyMPE7U9bKbJT";
         Map<String, String> data = new HashMap<>();
         data.put("title", "Notification");
         data.put("body", "you have placed your order.");
-        NotiSendData notiSendData = new NotiSendData(token, data);
+        NotiSendData notiSendData = new NotiSendData(newToken, data);
         ApiPushNotification apiPushNotification = RetrofitClientPushNoti.getInstance().create(ApiPushNotification.class);
         compositeDisposable.add(apiPushNotification.sendNotification(notiSendData)
                 .subscribeOn(Schedulers.io())
@@ -177,6 +179,8 @@ public class MainActivity extends AppCompatActivity {
                                     listCate.add(new CategoryModel.Category("123", "Log out", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
                                     listCate.add(new CategoryModel.Category("123", "Chat", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
                                     listCate.add(new CategoryModel.Category("123", "Live", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
+                                    listCate.add(new CategoryModel.Category("123", "Orders", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
+
 
                                     categoryAdapter = new CategoryAdapter(listCate, getApplicationContext());
                                     listView.setAdapter(categoryAdapter);
@@ -269,16 +273,28 @@ public class MainActivity extends AppCompatActivity {
                         //FirebaseAuth.getInstance().signOut();
                         finish();
                         break;
+                    case 7:
+                        Intent order = new Intent(getApplicationContext(), OrderActivity.class);
+                        startActivity(order);
+                        //FirebaseAuth.getInstance().signOut();
+                        finish();
+                        break;
                 }
             }
         });
     }
 
     private void getToken(){
+        Log.d("FirebaseToken", "s");
+
+        //FirebaseMessaging.getInstance().deleteToken();
+
         FirebaseMessaging.getInstance().getToken()
                 .addOnSuccessListener(new OnSuccessListener<String>() {
                     @Override
                     public void onSuccess(String s) {
+                        Paper.book().write("fireBase", s);
+                        Log.d("FirebaseToken", s);
                         if(!TextUtils.isEmpty(s)){
                             String userId = Paper.book().read("userId");
                             if(userId != null){

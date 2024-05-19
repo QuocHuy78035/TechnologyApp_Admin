@@ -30,6 +30,9 @@
             android:name=".activities.livestream.JoinLiveActivity"
             android:exported="false" />
         <activity
+            android:name=".activities.order.OrderActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.chat.UserActivity"
             android:exported="false" />
         <activity

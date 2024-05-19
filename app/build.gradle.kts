@@ -40,13 +40,13 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
-    implementation(libs.firebase.messaging)
     implementation(fileTree(mapOf(
         "dir" to "D:\\TranHuuQuocHuy-21110888\\HK6_3\\LTDiDong\\Zalopay",
         "include" to listOf("*.aar", "*.jar"),
         //"exclude" to listOf()
     )))
     implementation(libs.media3.exoplayer)
+    implementation(libs.firebase.messaging)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

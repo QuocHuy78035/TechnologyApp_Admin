@@ -3,8 +3,10 @@ package com.example.technology_app.retrofit;
 import com.example.technology_app.models.AddToCartModel;
 import com.example.technology_app.models.CartModel;
 import com.example.technology_app.models.CategoryModel;
+import com.example.technology_app.models.GetOrder.GetOrderModel;
 import com.example.technology_app.models.Products.Laptop.ProductModel;
 import com.example.technology_app.models.SignUp;
+import com.example.technology_app.models.UpdateOrder.UpdateOrderModel;
 import com.example.technology_app.models.UserInfoModel;
 import com.example.technology_app.models.UserModel;
 
@@ -91,4 +93,18 @@ public interface Api {
     Observable<CartModel> getCartUser(@Header("x-client-id") String userId,
                                       @Header("authorization") String author);
 
+    @GET("order")
+    Observable<GetOrderModel> getOrderUser(
+            @Header("x-client-id") String userId,
+                                           @Header("authorization") String author);
+
+
+    @PATCH("order/{orderId}/status")
+    @FormUrlEncoded
+    Observable<UpdateOrderModel> updateStatusOrder(
+            @Header("x-client-id") String userId,
+            @Header("authorization") String author,
+            @Path("orderId") String orderId,
+            @Field("status") String status
+    );
 }
