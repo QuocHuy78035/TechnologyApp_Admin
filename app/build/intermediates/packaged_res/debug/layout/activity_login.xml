@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Admin Login"
         android:textSize="30sp"
         android:layout_gravity="center"
         android:textStyle="bold"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Login to your account"
+        android:text="Login to your admin account"
         android:layout_marginTop="5dp"/>
 
     <EditText
@@ -72,15 +72,15 @@
             android:layout_marginEnd="20dp"/>
     </RelativeLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:id="@+id/txtNavigatorForgotPass"
-        android:text="Forgot password ?"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:textColor="@color/primaryColor"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:id="@+id/txtNavigatorForgotPass"-->
+<!--        android:text="Forgot password ?"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:textColor="@color/primaryColor"/>-->
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogin"
@@ -166,16 +166,16 @@
         android:gravity="center"
         android:layout_marginTop="40dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Don't have account ?"/>
-        <TextView
-            android:id="@+id/txtNavigatorDangKi"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text=" Register"
-            android:textColor="@color/primaryColor"/>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Don't have account ?"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/txtNavigatorDangKi"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text=" Register"-->
+<!--            android:textColor="@color/primaryColor"/>-->
 
     </LinearLayout>
 

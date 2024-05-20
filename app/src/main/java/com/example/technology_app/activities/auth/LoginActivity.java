@@ -57,13 +57,13 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void initControl() {
-        txtNavigatorDangKi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
-                startActivity(intent);
-            }
-        });
+//        txtNavigatorDangKi.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+//                startActivity(intent);
+//            }
+//        });
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -148,7 +148,7 @@ public class LoginActivity extends AppCompatActivity {
         pass = findViewById(R.id.inputPassLogin);
         btnLogin = findViewById(R.id.btnLogin);
         iconPass = findViewById(R.id.passIcon);
-        txtNavigatorDangKi = findViewById(R.id.txtNavigatorDangKi);
+        //txtNavigatorDangKi = findViewById(R.id.txtNavigatorDangKi);
         api = RetrofitClient.getInstance(GlobalVariable.BASE_URL).create(Api.class);
         firebaseAuth = FirebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();

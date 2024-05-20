@@ -67,10 +67,10 @@ public class LaptopAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                 @Override
                 public void onClick(View view, int pos, boolean isLongClicked) {
                     if(!isLongClicked){
-                        Intent intent = new Intent(context, DetailProductActivity.class);
-                        intent.putExtra("detailProduct", product);
-                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        context.startActivity(intent);
+//                        Intent intent = new Intent(context, DetailProductActivity.class);
+//                        intent.putExtra("detailProduct", product);
+//                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                        context.startActivity(intent);
                     }
                 }
             });

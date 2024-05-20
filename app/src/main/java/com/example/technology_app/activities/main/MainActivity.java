@@ -30,10 +30,12 @@ import com.example.technology_app.activities.livestream.JoinLiveActivity;
 import com.example.technology_app.activities.order.OrderActivity;
 import com.example.technology_app.activities.products.LaptopActivity;
 import com.example.technology_app.activities.products.RamActivity;
+import com.example.technology_app.activities.statistic.StatisticActivity;
 import com.example.technology_app.adapters.CategoryAdapter;
 import com.example.technology_app.models.CartModel;
 import com.example.technology_app.models.CategoryModel;
 import com.example.technology_app.models.NotiSendData;
+import com.example.technology_app.models.Statistic.Statistic;
 import com.example.technology_app.retrofit.Api;
 import com.example.technology_app.retrofit.ApiPushNotification;
 import com.example.technology_app.retrofit.RetrofitClient;
@@ -84,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         actionViewFlipper();
         actionBar();
         getCategory();
-        getInfoUser();
+        //getInfoUser();
         //pushNotification();
         getEventClick();
 
@@ -176,10 +178,12 @@ public class MainActivity extends AppCompatActivity {
                             if (categoryModel.getStatus() == 200) {
                                 if (categoryModel.getMetadata() != null) {
                                     listCate = categoryModel.getMetadata().getCategories();
-                                    listCate.add(new CategoryModel.Category("123", "Log out", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
-                                    listCate.add(new CategoryModel.Category("123", "Chat", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
-                                    listCate.add(new CategoryModel.Category("123", "Live", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
-                                    listCate.add(new CategoryModel.Category("123", "Orders", "", "", 0, "https://mauweb.monamedia.net/thegioididong/wp-content/uploads/2017/12/banner-Le-hoi-phu-kien-800-300.png"));
+                                    listCate.add(new CategoryModel.Category("123", "Chat", "", "", 0, "https://w7.pngwing.com/pngs/124/1014/png-transparent-chat-bubbles-to-chat-with-chat-bubbles-speak.png"));
+                                    listCate.add(new CategoryModel.Category("123", "Live", "", "", 0, "https://e7.pngegg.com/pngimages/166/901/png-clipart-live-text-live-on-air-sign-miscellaneous-on-air-signs.png"));
+                                    listCate.add(new CategoryModel.Category("123", "Orders", "", "", 0, "https://browntape.com/wp-content/uploads/2017/09/bb.png"));
+                                    listCate.add(new CategoryModel.Category("123", "Statistic", "", "", 0, "https://st5.depositphotos.com/1745098/66256/i/1600/depositphotos_662569426-stock-photo-revenues-word-file-folder-tab.jpg"));
+
+                                    listCate.add(new CategoryModel.Category("123", "Log out", "", "", 0, "https://cdn1.iconfinder.com/data/icons/materia-arrows-symbols-vol-3/24/018_128_arrow_exit_logout-1024.png"));
 
 
                                     categoryAdapter = new CategoryAdapter(listCate, getApplicationContext());
@@ -255,12 +259,6 @@ public class MainActivity extends AppCompatActivity {
                         laptop.putExtra("cateId", listCate.get(2).get_id());
                         startActivity(laptop);
                         break;
-                    case 4:
-                        Intent signOut = new Intent(getApplicationContext(), LoginActivity.class);
-                        startActivity(signOut);
-                        FirebaseAuth.getInstance().signOut();
-                        finish();
-                        break;
                     case 5:
                         Intent chat = new Intent(getApplicationContext(), UserActivity.class);
                         startActivity(chat);
@@ -270,13 +268,22 @@ public class MainActivity extends AppCompatActivity {
                     case 6:
                         Intent live = new Intent(getApplicationContext(), JoinLiveActivity.class);
                         startActivity(live);
-                        //FirebaseAuth.getInstance().signOut();
                         finish();
                         break;
                     case 7:
                         Intent order = new Intent(getApplicationContext(), OrderActivity.class);
                         startActivity(order);
-                        //FirebaseAuth.getInstance().signOut();
+                        finish();
+                        break;
+                    case 8:
+                        Intent statistic = new Intent(getApplicationContext(), StatisticActivity.class);
+                        startActivity(statistic);
+                        finish();
+                        break;
+                    case 9:
+                        Intent signOut = new Intent(getApplicationContext(), LoginActivity.class);
+                        startActivity(signOut);
+                        FirebaseAuth.getInstance().signOut();
                         finish();
                         break;
                 }

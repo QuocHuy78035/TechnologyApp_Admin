@@ -19,6 +19,7 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.aliyun.com/repository/jcenter")
         }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 

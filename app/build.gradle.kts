@@ -97,5 +97,7 @@ dependencies {
 
     implementation("com.google.android.exoplayer:exoplayer:2.18.5")
 
+    //chart
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
 
 }

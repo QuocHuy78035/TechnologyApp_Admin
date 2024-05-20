@@ -3451,8 +3451,10 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAddProduct
 id btnAddToCart
 id btnBuy
+id btnChooseImg
 id btnConfirm_dialog
 id btnCreateMeeting
 id btnHLS
@@ -3546,6 +3548,9 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editLeftProduct
+id editProductName
+id editSalePrice
 id edit_query
 id edtContentChat
 id elastic
@@ -3660,10 +3665,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgAddLaptop
 id imgAvtProfile
 id imgChat
 id imgDetailItem
 id imgNoti
+id imgProduct
 id img_detailProduct
 id immediateStop
 id included
@@ -3842,6 +3849,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id pieChart
 id pin
 id player_view
 id position
@@ -3985,6 +3993,7 @@ id toolbarUserChat
 id toolbar_detailProduct
 id toolbar_laptopScreen
 id toolbar_ramScreen
+id toolbar_statisticScreen
 id top
 id topPanel
 id touch_outside
@@ -4007,8 +4016,6 @@ id txtEmailVerifySignup
 id txtEmptyCart
 id txtMessReceived
 id txtMessSend
-id txtNavigatorDangKi
-id txtNavigatorForgotPass
 id txtNavigatorLogin
 id txtPhoneNumber
 id txtResendCodeRegister
@@ -4166,6 +4173,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_lap_top_product
 layout activity_cart
 layout activity_chat
 layout activity_detail_product
@@ -4179,6 +4187,7 @@ layout activity_payment
 layout activity_ram
 layout activity_register
 layout activity_splash
+layout activity_statistic
 layout activity_user
 layout activity_verify_sign_up
 layout activity_vid_demo_product

@@ -1,10 +1,12 @@
 package com.example.technology_app.activities.products;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -42,6 +44,7 @@ public class LaptopActivity extends AppCompatActivity {
     List<ProductDetail> productList;
     LaptopAdapter laptopAdapter;
     int page = 1;
+    ImageView addLapTop;
     String cateId ;
 
 
@@ -52,6 +55,17 @@ public class LaptopActivity extends AppCompatActivity {
         setContentView(R.layout.activity_laptop);
         initView();
         initData();
+        initControl();
+    }
+
+    private void initControl() {
+        addLapTop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AddLapTopProductActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initData() {
@@ -150,6 +164,7 @@ public class LaptopActivity extends AppCompatActivity {
     private void initView() {
         cateId = getIntent().getStringExtra("cateId");
         toolbar = findViewById(R.id.toolbar_laptopScreen);
+        addLapTop = findViewById(R.id.imgAddLaptop);
         recyclerView = findViewById(R.id.recycleview_laptop);
         api = RetrofitClient.getInstance(GlobalVariable.BASE_URL).create(Api.class);
         linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
