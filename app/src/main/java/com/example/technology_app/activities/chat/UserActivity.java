@@ -1,6 +1,6 @@
-// UserActivity.java
 package com.example.technology_app.activities.chat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.technology_app.R;
+import com.example.technology_app.activities.main.MainActivity;
 import com.example.technology_app.adapters.UserChatAdapter;
 import com.example.technology_app.models.UserModel;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -71,13 +72,16 @@ public class UserActivity extends AppCompatActivity {
     }
 
     private void actionToolBar() {
-        toolbar = findViewById(R.id.toolbarUserChat);
         setSupportActionBar(toolbar);
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
             }
         });
     }

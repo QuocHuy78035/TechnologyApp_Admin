@@ -51,12 +51,6 @@
                             android:layout_gravity="top|right" />
 
 
-                        <ImageView
-                            android:layout_width="35dp"
-                            android:layout_height="35dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/ic_cart" />
-
                     </FrameLayout>
 
                     <de.hdodenhof.circleimageview.CircleImageView

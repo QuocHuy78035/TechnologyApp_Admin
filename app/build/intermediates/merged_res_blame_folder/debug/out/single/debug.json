@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\layout_activity_add_lap_top_product.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\activity_add_lap_top_product.xml"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\drawable_ic_pass.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\drawable\\ic_pass.xml"
     },
@@ -76,12 +80,12 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\raw\\loading.json"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\drawable_ic_otp.jpg.flat",
-        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\drawable\\ic_otp.jpg"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\layout_notification.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\drawable_ic_otp.jpg.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\drawable\\ic_otp.jpg"
     },
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -108,6 +112,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\dialog_order.xml"
     },
     {
+        "merged": "com.example.technology_app-merged_res-49:/layout_activity_statistic.xml.flat",
+        "source": "com.example.technology_app-main-51:/layout/activity_statistic.xml"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\drawable_ic_call.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\drawable\\ic_call.xml"
     },
@@ -120,10 +128,6 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\anim\\slide_out_right.xml"
     },
     {
-        "merged": "com.example.technology_app-merged_res-49:/layout_item_detail_order.xml.flat",
-        "source": "com.example.technology_app-main-51:/layout/item_detail_order.xml"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\drawable_round_back_blue15.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\drawable\\round_back_blue15.xml"
     },
@@ -134,6 +138,10 @@
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\layout_activity_statistic.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\activity_statistic.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\drawable_background_received_mess.xml.flat",
@@ -280,12 +288,12 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\layout_item_order.xml.flat",
-        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\item_order.xml"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-main-51:\\layout\\item_order.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\8.4\\com.example.technology_app-merged_res-49:\\layout_activity_login.xml.flat",

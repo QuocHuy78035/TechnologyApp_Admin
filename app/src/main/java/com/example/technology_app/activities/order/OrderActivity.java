@@ -1,5 +1,6 @@
 package com.example.technology_app.activities.order;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,6 +19,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.technology_app.R;
+import com.example.technology_app.activities.main.MainActivity;
 import com.example.technology_app.adapters.OrderAdapter;
 import com.example.technology_app.models.EventBus.OrderEvent;
 import com.example.technology_app.models.GetOrder.GetOrderModel;
@@ -67,7 +69,8 @@ public class OrderActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
             }
         });
     }

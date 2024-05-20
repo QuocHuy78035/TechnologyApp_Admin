@@ -39,8 +39,10 @@ drawable round_back_dark_blue5_15
 id address
 id animation_view
 id body_noti
+id btnAddProduct
 id btnAddToCart
 id btnBuy
+id btnChooseImg
 id btnConfirm_dialog
 id btnCreateMeeting
 id btnHLS
@@ -59,6 +61,9 @@ id cate_image
 id cate_name
 id createorjoinlayout
 id drawerlayoutHomeScreen
+id editLeftProduct
+id editProductName
+id editSalePrice
 id edtContentChat
 id email_chat_user
 id etMeetingId
@@ -69,10 +74,12 @@ id idItemOrderName
 id idItemOrderQuantity
 id idItemOrderStatusPayment
 id id_chat_user
+id imgAddLaptop
 id imgAvtProfile
 id imgChat
 id imgDetailItem
 id imgNoti
+id imgProduct
 id img_detailProduct
 id inputEmailLogin
 id inputEmailRegister
@@ -116,6 +123,7 @@ id participantView
 id passIcon
 id passIconPassConfirmRegister
 id passIconRegister
+id pieChart
 id player_view
 id progressbar
 id recycleItemOrder
@@ -139,6 +147,7 @@ id toolbarUserChat
 id toolbar_detailProduct
 id toolbar_laptopScreen
 id toolbar_ramScreen
+id toolbar_statisticScreen
 id tvHlsState
 id tvMeetingId
 id tvName
@@ -149,8 +158,6 @@ id txtEmailVerifySignup
 id txtEmptyCart
 id txtMessReceived
 id txtMessSend
-id txtNavigatorDangKi
-id txtNavigatorForgotPass
 id txtNavigatorLogin
 id txtPhoneNumber
 id txtResendCodeRegister
@@ -164,6 +171,7 @@ id userName
 id viewflipperHomeScreen
 id waitingLayout
 id youtuber
+layout activity_add_lap_top_product
 layout activity_cart
 layout activity_chat
 layout activity_detail_product
@@ -177,6 +185,7 @@ layout activity_payment
 layout activity_ram
 layout activity_register
 layout activity_splash
+layout activity_statistic
 layout activity_user
 layout activity_verify_sign_up
 layout activity_vid_demo_product

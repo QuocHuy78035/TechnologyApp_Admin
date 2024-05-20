@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-90:12
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:2:1-106:12
 MERGED from [zpdk-release-v3.1.aar] C:\Users\Lenovo\.gradle\caches\transforms-3\1eaa79f5f7b99269684a63318a91cd42\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:2:1-15:12
 MERGED from [live.videosdk:rtc-android-sdk:0.1.21] C:\Users\Lenovo\.gradle\caches\transforms-3\2bf532594d9627de5ce26ba1c81520b4\transformed\jetified-rtc-android-sdk-0.1.21\AndroidManifest.xml:2:1-26:12
 MERGED from [live.videosdk:videosdk-room-stats-android:0.0.2] C:\Users\Lenovo\.gradle\caches\transforms-3\e59ee70e68b1027f9c13133d1edf3bd4\transformed\jetified-videosdk-room-stats-android-0.0.2\AndroidManifest.xml:2:1-9:12
@@ -86,6 +86,7 @@ MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\Lenovo\.gradle\cache
 MERGED from [org.greenrobot:eventbus:3.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f72494838dd9947b04f9f101a33fa887\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Lenovo\.gradle\caches\transforms-3\fd3ef94bea9874b0f121975e99389940\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\b1a70ea8e3862678d6a78f310d727dff\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\7f1c20eaf0050b79d630bc5b19fd41ea\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\d1b31d07e0bdd9c20a5395324c0b0f4d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\6f966196629a42b044944004216b750c\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\5e5971210cabbae1ca5b432d2c2f8b20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
@@ -198,9 +199,33 @@ uses-permission#android.permission.CAMERA
 ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:13:5-65
 	android:name
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:15:5-17:38
+	android:maxSdkVersion
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:17:9-35
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:16:9-64
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:21:5-23:40
+	tools:ignore
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:23:9-37
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:22:9-65
 application
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:15:5-88:19
-INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:15:5-88:19
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:25:5-104:19
+INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:25:5-104:19
 MERGED from [live.videosdk:rtc-android-sdk:0.1.21] C:\Users\Lenovo\.gradle\caches\transforms-3\2bf532594d9627de5ce26ba1c81520b4\transformed\jetified-rtc-android-sdk-0.1.21\AndroidManifest.xml:12:5-24:19
 MERGED from [live.videosdk:rtc-android-sdk:0.1.21] C:\Users\Lenovo\.gradle\caches\transforms-3\2bf532594d9627de5ce26ba1c81520b4\transformed\jetified-rtc-android-sdk-0.1.21\AndroidManifest.xml:12:5-24:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ae1d0432b39c926d885be431b519cd1c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
@@ -274,143 +299,155 @@ MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Lenovo\.gradle\caches
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\6f7699e40eadcfb4e1bbf0367e8f27a8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:32:9-35
 	android:label
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:30:9-41
 	android:fullBackupContent
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:28:9-54
 	android:roundIcon
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:31:9-54
 	tools:targetApi
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:25:9-29
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:35:9-29
 	android:icon
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:29:9-43
 	android:allowBackup
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:26:9-35
 	android:theme
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:23:9-52
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:33:9-52
 	android:dataExtractionRules
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:17:9-65
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:27:9-65
 	android:usesCleartextTraffic
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:24:9-44
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:34:9-44
+activity#com.example.technology_app.activities.products.AddLapTopProductActivity
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:37:13-73
+activity#com.example.technology_app.activities.statistic.StatisticActivity
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:40:13-67
 activity#com.example.technology_app.activities.livestream.MeetingActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:42:9-44:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:27:13-66
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:43:13-66
 activity#com.example.technology_app.activities.livestream.JoinLiveActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:29:9-31:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:30:13-67
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:46:13-67
 activity#com.example.technology_app.activities.order.OrderActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:32:9-34:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:33:13-59
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:49:13-59
 activity#com.example.technology_app.activities.chat.UserActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:35:9-37:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:36:13-57
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:52:13-57
 activity#com.example.technology_app.activities.products.RamActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:38:9-40:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:54:9-56:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:39:13-60
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:55:13-60
 activity#com.example.technology_app.activities.auth.VerifySignUpActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:41:9-43:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:57:9-59:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:42:13-65
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:58:13-65
 activity#com.example.technology_app.activities.payment.PaymentActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:44:9-46:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:60:9-62:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:62:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:45:13-63
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:61:13-63
 activity#com.example.technology_app.activities.products.VidDemoProductActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:63:9-65:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:48:13-71
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:64:13-71
 activity#com.example.technology_app.activities.chat.ChatActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:66:9-68:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:68:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:51:13-57
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:67:13-57
 activity#com.example.technology_app.activities.products.DetailProductActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:69:9-71:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:71:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:54:13-70
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:70:13-70
 activity#com.example.technology_app.activities.products.LaptopActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:56:9-58:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:72:9-74:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:74:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:57:13-63
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:73:13-63
 activity#com.example.technology_app.activities.auth.RegisterActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:59:9-61:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:75:9-77:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:61:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:77:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:60:13-61
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:76:13-61
 activity#com.example.technology_app.activities.auth.LoginActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:62:9-64:40
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:78:9-80:40
 	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:80:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:63:13-58
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:79:13-58
 activity#com.example.technology_app.activities.cart.CartActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:65:9-67:40
-	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:67:13-37
-	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:66:13-57
-activity#com.example.technology_app.activities.auth.SplashActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:68:9-76:20
-	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:70:13-36
-	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:69:13-59
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:71:13-75:29
-action#android.intent.action.MAIN
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:72:17-69
-	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:72:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:74:17-77
-	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:74:27-74
-activity#com.example.technology_app.activities.main.MainActivity
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:77:9-79:39
-	android:exported
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:79:13-36
-	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:78:13-57
-service#com.example.technology_app.services.FirebaseMessageReceiver
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:81:9-87:19
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:81:9-83:40
 	android:exported
 		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:82:13-61
-intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:84:13-86:29
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:85:17-78
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:82:13-57
+activity#com.example.technology_app.activities.auth.SplashActivity
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:84:9-92:20
+	android:exported
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:86:13-36
 	android:name
-		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:85:25-75
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:85:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:87:13-91:29
+action#android.intent.action.MAIN
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:88:17-69
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:88:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:90:17-77
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:90:27-74
+activity#com.example.technology_app.activities.main.MainActivity
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:93:9-95:39
+	android:exported
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:95:13-36
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:94:13-57
+service#com.example.technology_app.services.FirebaseMessageReceiver
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:97:9-103:19
+	android:exported
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:99:13-37
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:98:13-61
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:100:13-102:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:101:17-78
+	android:name
+		ADDED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml:101:25-75
 uses-sdk
 INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\TranHuuQuocHuy-21110888\HK6_3\LTDiDong\Project_CK_Admin\app\src\main\AndroidManifest.xml
@@ -579,6 +616,8 @@ MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Lenovo\.gradle\caches\transfo
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Lenovo\.gradle\caches\transforms-3\fd3ef94bea9874b0f121975e99389940\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:5:5-44
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\b1a70ea8e3862678d6a78f310d727dff\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\b1a70ea8e3862678d6a78f310d727dff\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\7f1c20eaf0050b79d630bc5b19fd41ea\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Lenovo\.gradle\caches\transforms-3\7f1c20eaf0050b79d630bc5b19fd41ea\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\d1b31d07e0bdd9c20a5395324c0b0f4d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\d1b31d07e0bdd9c20a5395324c0b0f4d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\6f966196629a42b044944004216b750c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
